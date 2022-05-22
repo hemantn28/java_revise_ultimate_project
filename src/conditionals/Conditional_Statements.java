@@ -21,19 +21,37 @@ public class Conditional_Statements {
 
         float height=4.10f;
         if (height>5.0f){
-            System.out.printf("u r tall");
+            System.out.println("u r tall");
         }
         else {
-            System.out.printf("u r short");
+            System.out.println("u r short");
         }
 
         int price=987;
         if (price>999){
-            System.out.printf("product is costly");
+            System.out.println("product is costly");
         }
         else {
-            System.out.printf("product is cheap");
+            System.out.println("product is cheap");
+        }
+
+        String city="Ratlam";
+        if (city=="Agra"){
+            System.out.println("u r in Agra");
+        }
+        else {
+            System.out.println("U r not in Agra");
+        }
+
+        String name="Rakesh";
+        if (name=="Amit"){
+            System.out.println("u r the same person");
+        }
+        else {
+            System.out.println("U r not the same person");
         }
     }
+
+
 
 }
